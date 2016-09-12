@@ -2,8 +2,8 @@
 from conneMssql import MsSqlIN
 from connMysql import MySqlIN
 
-IP22 = '172.16.8.22'
-IP26 = '172.16.8.26'
+IP22 = '*'
+IP26 = '*'
 adict = {}
 adict ={'ask':'bbs.dbo.ViewSphinxSearchAsk',
         'bbs':'bbs.dbo.ViewSphinxSearchbbsTopic',
